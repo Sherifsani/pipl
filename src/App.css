@@ -1,3 +1,7 @@
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fff;
 }
@@ -75,4 +79,3 @@ header {
   height: 100%;
   content: "";
 } */
-
