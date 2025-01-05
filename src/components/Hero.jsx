@@ -4,16 +4,13 @@ import CtaButton from "./CtaButton";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col gap-7 p-3 mx-auto mx-w-[1200px] min-h-[80vh] ">
-      <h1 className="text-[12vw]">
-        Your Ultimate
-        <br /> Fashion Destination
+    <section className="flex h-[100vh] flex-col pt-[80px] pb-[30px] gap-7 px-5 justify-end mx-auto mx-w-[1400px] border-b">
+      <h1 className="hero-head text-[15.3vw] leading-[60px] tracking-[-0.9px]">
+        Your Ultimate Fashion Destination
       </h1>
-      <p className="text-xl leading-6">
+      <p className="hero-text">
         Discover trends, embrace elegance, and redefine your wardrobe with us.
       </p>
-    <h1>
-    Be your own hero at pipl</h1>
 
       <CtaButton text={"Explore Worldwide"} />
     </section>
