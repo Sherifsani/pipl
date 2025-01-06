@@ -1,10 +1,10 @@
 const Map = () => {
   return (
-    <div className="w-full">
+    <div className="w-full max-w-[670px]">
       <svg
-      className="w-full"
+        className="w-full"
         width="800"
-        height="457"
+        // height="457"
         viewBox="0 0 800 457"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -8876,6 +8876,6 @@ const Map = () => {
       </svg>
     </div>
   );
-}
+};
 
-export default Map
+export default Map;
