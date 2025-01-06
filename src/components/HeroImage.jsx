@@ -2,8 +2,11 @@ import heroImage from "../../public/heroimage.webp";
 
 const HeroImage = () => {
   return (
-    <section className="w-full max-w-[1400px] mx-auto overflow-hidden rounded-lg">
-      <img src={heroImage} className="hover:scale-[1.1] transition-all" />
+    <section className="w-full px-5 max-w-[1400px] mx-auto overflow-hidden rounded-xl h-[80vh] mb-[20px]">
+      <img
+        src={heroImage}
+        className="transition-all h-full w-full rounded-xl object-cover"
+      />
     </section>
   );
 };
