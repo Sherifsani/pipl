@@ -4,8 +4,8 @@ import shape from "../../public/shape.svg";
 
 const World = () => {
   return (
-    <section className="max-w-[1400px] mx-auto px-5 h-screen pb-10">
-      <div className="flex flex-col gap-5 px-[15px] pt-[60px] pb-0 bg-[whitesmoke] rounded-xl w-full">
+    <section className="max-w-[1400px] mx-auto px-5 h-screen ">
+      <div className="flex flex-col gap-5 px-[15px] pt-[60px] pb-0 bg-[whitesmoke] rounded-xl w-full pb-10">
         <div className="flex flex-col gap-5 md:flex-row md:justify-around md:items-end">
           <h2 className="text-[40px] sm:text-[50px]  tracking-[.4px] sm:tracking-[.56px] lg:text-[72px] lg:tracking-[.72px] leading-[112%] max-w-[790px]">
             Sourcing Style Worldwide for Your Fashion Delight
