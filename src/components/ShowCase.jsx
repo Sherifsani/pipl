@@ -9,7 +9,7 @@ const ShowCase = () => {
         </h2>
         <div className="grid grid-cols-[1fr] sm:grid-cols-[repeat(2,1fr)] gap-4 lg:grid-cols-[repeat(4,1fr)]">
           {showCaseData.map(({ id, img, head, text }) => (
-            <div key={id} className="flex flex-col gap-3">
+            <div key={id} className="flex flex-col gap-3 mb-[50px]">
               <div className="h-[360px] rounded-2xl overflow-hidden">
                 <img
                   src={`../../public/${img}.webp`}

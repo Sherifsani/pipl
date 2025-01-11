@@ -58,4 +58,25 @@ const showCaseData = [
   },
 ];
 
-export { showCaseData, servicesData };
+
+const productData = [
+  {
+    img: "product-1",
+    id: 1,
+    head: "Our Network of Offices",
+    text: "Each country's unique specialties are expertly understood by our teams, seamlessly connecting customers and production partners through our digital platform. We bridge expertise and execution for a globally connected production experience.",
+  },
+  {
+    img: "product-2",
+    id: 2,
+    head: "Future Realities",
+    text: "Enduring effort and commitment define transformative change. Meet our partners investing in cutting-edge technologies, eco-friendly practices, recycling, craft revival, and a commitment to valuing human life. Together, we shape the future.",
+  },
+  {
+    img: "product-3",
+    id: 3,
+    head: "Embracing Diversity in Fashion",
+    text: "Explore the rich tapestry of fashion — diverse in clothing, beauty, and the people who create and wear them. Unite with us in diverse collaborations, working towards our common goal: crafting a climate-neutral future for fashion.",
+  },
+];
+export { showCaseData, servicesData, productData };

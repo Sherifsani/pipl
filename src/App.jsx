@@ -6,7 +6,8 @@ import World from "./components/World";
 import Services from "./components/Services"
 import Innovation from "./components/Innovation";
 import Empower from "./components/Empower";
-  import ShowCase from "./components/ShowCase";
+import ShowCase from "./components/ShowCase";
+  import Production from "./components/Production";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Innovation />
       <Empower />
       <ShowCase />
+      <Production />
     </main>
   );
 }
