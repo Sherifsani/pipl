@@ -5,7 +5,8 @@ import HeroImage from "./components/HeroImage";
 import World from "./components/World";
 import Services from "./components/Services"
 import Innovation from "./components/Innovation";
-  import Empower from "./components/Empower";
+import Empower from "./components/Empower";
+  import ShowCase from "./components/ShowCase";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <World />
       <Services />
       <Innovation />
-      <Empower/>
+      <Empower />
+      <ShowCase />
     </main>
   );
 }

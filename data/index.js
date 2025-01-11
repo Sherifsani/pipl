@@ -31,4 +31,31 @@ const servicesData = [
   },
 ];
 
-export default servicesData;
+const showCaseData = [
+  {
+    id: 1,
+    img: "eco-1",
+    head: "Eco-Friendly Presentations",
+    text: "3D-rendered presentations and eco-friendly laser treatment.",
+  },
+  {
+    id: 2,
+    img: "eco-2",
+    head: "Cradle-to-Cradle Pledge",
+    text: "Regenerated and organic cotton, innovative fibers.",
+  },
+  {
+    id: 3,
+    img: "eco-3",
+    head: "Ethical Sourcing & Production",
+    text: "Certified suppliers and ethical production in the EU.",
+  },
+  {
+    id: 4,
+    img: "eco-4",
+    head: "Ocean Sustainability",
+    text: "Sea plastic buttons and chemical-free dyeing.",
+  },
+];
+
+export { showCaseData, servicesData };
