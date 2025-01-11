@@ -5,7 +5,7 @@ const Production = () => {
   return (
     <section className="px-5 max-w-[1350px] mx-auto ">
       <div className="px-5 flex flex-col gap-6 items-start bg-[whitesmoke] rounded-[16px] py-4">
-        <div className="head w-full flex flex-col lg:flex-row lg:justify-between lg:items-center gap-5 py-14 px-5 border-b border-grey40">
+        <div className="head w-full flex flex-col lg:flex-row lg:justify-between lg:items-center gap-5 py-14 md:px-5 border-b border-grey40">
           <h2 className="text-[40px] tracking-[.4px] max-w-[345px] md:max-w-[536px] lg:max-w-[660px] md:text-[56px] md:tracking-[.56px] lg:text-[72px] lg:tracking-[.72px]">
             The Symphony of Our Production Partnerships
           </h2>
@@ -17,7 +17,7 @@ const Production = () => {
             <CtaButton text="Contact Us" />
           </div>
         </div>
-        <div className="product-container flex flex-col gap-5 w-full px-5">
+        <div className="product-container flex flex-col gap-5 w-full md:px-5">
           {productData.map(({ id, img, head, text }) => (
             <div
               key={id}
