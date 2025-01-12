@@ -9,7 +9,8 @@ import Empower from "./components/Empower";
 import ShowCase from "./components/ShowCase";
 import Production from "./components/Production";
 import Advocacy from "./components/Advocacy";
-  import Customers from "./components/Customers";
+import Customers from "./components/Customers";
+  import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Production />
       <Advocacy />
       <Customers />
+      <Contact />
     </main>
   );
 }
