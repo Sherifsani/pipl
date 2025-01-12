@@ -3,7 +3,7 @@ import image2 from "/advo-2.webp";
 
 const Advocacy = () => {
   return (
-    <div className="max-w-[1350px] mx-auto px-5 gap-10 flex flex-col w-full">
+    <div className="max-w-[1350px] mx-auto px-5 gap-10 flex flex-col w-full mt-[50px]">
       <div className="flex flex-col md:flex-row gap-4">
         <h3 className="font-[500]">
           Diligent Teams Pursuing Goals and Upholding Standards

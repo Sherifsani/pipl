@@ -8,7 +8,8 @@ import Innovation from "./components/Innovation";
 import Empower from "./components/Empower";
 import ShowCase from "./components/ShowCase";
 import Production from "./components/Production";
-  import Advocacy from "./components/Advocacy";
+import Advocacy from "./components/Advocacy";
+  import Customers from "./components/Customers";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <ShowCase />
       <Production />
       <Advocacy />
+      <Customers />
     </main>
   );
 }
